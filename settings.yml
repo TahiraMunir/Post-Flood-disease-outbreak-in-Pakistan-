@@ -1,0 +1,87 @@
+general:
+  export_agents: false
+  export_matrix: true
+  export_all_movers: true
+  export_agent_tiffs: false
+  vulnerability_region: sindh
+
+  flood:
+    spin_up_flood: false
+    random_flood: true
+
+    user_floods:
+      2003: 5
+      2007: 15
+      2010: 100
+      2011: 30
+      2016: 15
+      2022: 100
+      2023: 25
+      2024: 15
+
+
+  health_policy:
+    use_health_policy: true
+    scenario: "mobile_clinics_integrated"
+
+   
+  include_ambient_pop_change: false
+  include_economic_growth: true
+  convert_to_USD_ppp: true
+  dynamic_behavior: true
+
+scenarios:
+  rcp: rcp4p5
+  ssp: ssp2
+
+agent_behavior:
+  include_migration: false
+  include_adaptation: true
+  include_insurance: false
+
+shoreline_change:
+  include_erosion: false
+  initial_beach_width: 100
+
+flood_risk_calculations:
+  flood_protection_standard: FLOPROS
+  risk_perception:
+    base: 1.6
+    min: 0.01
+    max: 2
+    coef: -3.6
+
+adaptation:
+  government_strategy: maintain_fps
+  mean_median_inc_ratio: 1.15
+  expenditure_cap: 0.06
+  loan_duration: 16
+  interest_rate: 0.04
+  lifespan_dryproof: 75
+
+subsidies:
+  migration: false
+  adaptation: false
+
+decisions:
+  error_interval: 0.0
+  risk_aversion: 1
+  decision_horizon: 15
+  time_discounting: 0.032
+  migration:
+    limit_admin_growth: true
+    max_admin_growth: 0.1
+    account_for_coastal_amenity_in_allocation: true
+    nr_cells_to_assess: 5
+    intention_to_behavior: 0.12
+    cost_shape: 0.05
+    amenity_weight: 1
+
+gravity_model:
+  run_with_gravity_model: true
+  inlcude_location_effects: false
+  annual_international_migration: 0
+
+calibrate:
+  parameter_ranges: parameter_ranges.csv
+  observed: observed.csv
