@@ -3,14 +3,14 @@
 
 ## Overview
 
-This repository contains brief decription of steps that present how this study adopts an agent-based model framework (ABM) to represent system heterogeneity and dynamic interactions. In addition, social vulnerability and the evolving interplay between hazard, exposure, and risk are explicitly incorporated into the modelling framework to provide a more comprehensive understanding of post-flood disease dynamics. 
+This repository contains the Python implementation of an Agent base model framework (ABM) to represent system heterogeneity and dynamic interactions in studing the case of Pakistan for diseases outbreak simulation. In addition, social vulnerability and the evolving interplay between hazard, exposure, and risk are explicitly incorporated into the modelling framework to provide a more comprehensive understanding of post-flood disease dynamics. 
 
 ## Study Area
 
-Country:Pakistan
+**Country:Pakistan**
 
 
--REGIONS
+-**REGIONS**
 - Sindh
 - Balochistan
 
@@ -57,7 +57,17 @@ Dta from different sources was used such as:
 - National Disaster Mangement Authority (NDMA) Pakistan
 - Research Papers
 - WHO
-- UN sources working on Climate Chnage 
+- UN sources working on Climate Chnage
+
+  ## Software Requirements
+
+- Python
+and install all required pacakges
+
+
+## Running the Model
+
+Configure the simulation settings in the YAML configuration file and run the main model script.
 
 
 
