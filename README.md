@@ -1,14 +1,16 @@
-# Post Flood disease outbreak in Pakistan by using Agent base modeling approach
+#An Agent-Based Modeling Approach to Assess Post-Flood Disease Outbreaks Following the 2022 Floods in Pakistan
+
 
 ## Overview
 
-This repository contains brief decription of steps the present study adopts an agent-based model framework to represent system heterogeneity and dynamic interactions. In addition, social vulnerability and the evolving interplay between hazard, exposure, and risk are explicitly incorporated into the modelling framework to provide a more comprehensive understanding of post-flood disease dynamics. 
+This repository contains brief decription of steps that present how this study adopts an agent-based model framework (ABM) to represent system heterogeneity and dynamic interactions. In addition, social vulnerability and the evolving interplay between hazard, exposure, and risk are explicitly incorporated into the modelling framework to provide a more comprehensive understanding of post-flood disease dynamics. 
 
 ## Study Area
 
 Country:Pakistan
-Regions:
 
+
+-REGIONS
 - Sindh
 - Balochistan
 
@@ -20,7 +22,6 @@ It has information of
 
 - Household vulnerability indices (Data taken from Pakistan Statistical Bureau (PSB).12 indicators are used in this study
 - Flood Exposure
-- 
 - Food Intensity
 - Expected Annual Damage (EAD)-
 - Disease transmission
